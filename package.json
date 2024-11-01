@@ -8,8 +8,7 @@
     "lingzhu-component-test"
   ],
   "repository": {
-    "type": "git",
-    "url": "git@git.corp.kuaishou.com:plateco-dev/kwaishop-power/apps/lingzhu-app-cdm.git"
+    "type": "git"
   },
   "license": "MIT",
   "author": "wufan12",

@@ -1,4 +1,5 @@
 import React from 'react'
+// 外面的注释
 /*!
  * @export
  * @interface RenderComProps
@@ -31,8 +32,14 @@ export interface RenderComProps {
 
 const RenderCom: React.FC<RenderComProps> = React.memo(props => {
   // const [style, setStyle] = useState(props.style || {})
-
-  return <div>Hello Demo--- {props.label ?? '测试'}</div>
+  /*!
+   * 点击事件
+   */
+  const click = () => {
+    // 打印前zhu shi s
+    console.log('111 clicked')
+  }
+  return <div>Hello Demo--- {props.label ?? '测试'} <button onClick={click}>click</button></div>
 })
 
 export default RenderCom

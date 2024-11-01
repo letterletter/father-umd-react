@@ -12,6 +12,7 @@ temp/
 .turbo
 .eslintcache
 
+umd/
 .env
 # coverage
 coverage/

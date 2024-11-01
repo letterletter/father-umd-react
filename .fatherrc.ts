@@ -20,7 +20,7 @@ export default defineConfig({
         // 保留注释
         args[0].terserOptions.format = {
           ...args[0].terserOptions.format,
-           comments: true//  /^!/, // 或者使用 'all' 保留所有注释
+           comments:   /^!/, // 或者使用 'all' 保留所有注释
         };
         return args;
       });
